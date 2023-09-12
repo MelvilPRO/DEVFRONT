@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- la partie head n'est pas affichée à l'écran, elle contient les métas et des instructions pour le navigateur, comme l'encodage, des liens vers des scripts ou des css... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titre de la page</title> 
+  </head>
+  <body>
+    <!-- le body contient le code html qui sera affiché par le navigateur.
+    Il existe des balises de type block (occupe tout l'espace) et des balises de type inline (reste avec le texte).
+    Il existe des balises ouvrantes/fermantes et des balises auto-fermantes
+    exemple de balises ouvrant / fermant : <p>peut contenir du texte ou d'autre balises</p>
+    exemple de balises auto-fermante : <br /> <img /> <input />
+    -->
+    <!-- balise HTML -->
+    <!-- balises de texte :p, h1, h2, h3, h4, h5, h6, br, strong, em, strike,...  -->
+    <p>Mon paragraphe <br> nouvelle ligne <strong>en bold</strong></p>
+    <h1>titre 1</h1>
+    <h2>titre 2 <em>text inline en italic</em> texte après le em</h2>
+    <h3>titre 3</h3>
+    <h4>titre 4</h4>
+    <h5>titre 5</h5>
+    <h6>titre 6</h6>
+
+    <!-- balises de séparation de contenus : span, div  -->
+    <div>La balise div permet d'entourer des antres balises sans modification de style, c'est une balise de type block</div>
+    <p>la balise span, entoure un texte avec un rendu de type inline, sans modifier le comportement de ce texte: <span>couleur différente</span></p>
+
+    <!-- balises de listes -->
+    <!-- ul, li, ol, dl, dt, dd -->
+
+    <!-- balises de médias -->
+    <!-- img, video, audio, figure, figcaption, picture -->
+
+    <!-- balises de navigation -->
+    <!-- a, menu, nav -->
+    
+    <!-- balises de structure de document -->
+    <!-- header, footer, main, aside, menu, section, article -->
+
+    <!-- balises de formulaire  -->
+    <!-- form, input, label, fiedset, legend, select, textarea, button -->
+    
+    <!-- balises de tableau -->
+    <!-- table, tr, td, th, thead, tbody, tfoot, caption -->
+
+    <!-- Unordered list -->
+    <ul>
+        <li>List element 1</li>
+        <li>List element 2</li>
+        <li>List element 3</li>
+        <li>
+            List element 4
+            <ul>
+                <li>
+                    List element 5-A
+                    <li>
+                        List element 5-B
+                    </li>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <!-- Ordered list -->
+    <ol>
+        <li>List element 1</li>
+        <li>List element 2</li>
+        <li>List element 3</li>
+        <li>
+            <!-- On peut imbriquer -->
+            List element 4
+            <ul>
+                <li>
+                    List element 5-A
+                    <li>
+                        List element 5-B
+                    </li>
+                </li>
+            </ul>
+        </li>
+    </ol>
+    <!-- Definition list -->
+    <dl>
+        <dt>Titre de la définition</dt>
+        <dd>Exemple de titre</dd>
+        <dt>Man, M</dt>
+        <dd>Homme, sexe masculin</dd>
+    </dl>
+    <!-- Voici un tableau avec des titres de colonnes-->
+    <table border="1" width="100%">
+        <tr>
+            <th>Entete de colonne 1</th>
+            <th>Entete de colonne 2</th>
+            <th>Entete de colonne 3</th>
+        </tr>
+        <tr>
+            <td>Ligne 1 cellule 1</td>
+            <td>Ligne 1 cellule 2</td>
+        </tr>
+        <tr>
+            <td>Ligne 2 cellule 1</td>
+            <td>Ligne 2 cellule 2</td>
+        </tr>
+    </table>
+  </body>
+</html>
