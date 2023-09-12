@@ -29,7 +29,93 @@
 
     <!-- balises de listes -->
     <!-- ul, li, ol, dl, dt, dd -->
+    
+    <!-- unordored list -->
+    <ul>
+      <li>list element</li>
+      <li>list element</li>
+      <li>list element</li>
+      <li>
+        texte de la liste, avec une sous liste
+        <ul>
+          <li>liste de niveau 2</li>
+          <li>liste de niveau 2</li>
+          <li>liste de niveau 2</li>
+        </ul>
+      </li>
+    </ul>
+    <!-- ordored list -->
+    <ol>
+      <li>liste avec une numérotation</li>
+      <li>liste avec une numérotation</li>
+      <li>liste avec une numérotation</li>
+      <li>liste avec une numérotation</li>
+      <li>
+        On peut imbriquer les listes ordonnées et non ordonnées si on veut :
+        <ul>
+          <li>list de niveau 2</li>
+          <li>list de niveau 2</li>
+          <li>list de niveau 2</li>
+        </ul>
+      </li>
+    </ol>
 
+    <!-- definition list -->
+    <dl>
+      <dt>Titre de la définition</dt>
+      <dd>la définition exemple.</dd>
+      <dt>Man, N.M.</dt>
+      <dd>Homme, un être humain de sexe masculin.</dd>
+    </dl>
+    
+    <!-- balises de tableau -->
+    <!-- table, tr, td, th, thead, tbody, tfoot, caption -->
+    <table border="1" width="100%">
+      <!-- ici tr est une ligne de tableau qui contient 2 cellules -->
+      <tr>
+        <td>ligne 1 cellule 1</td>
+        <td>ligne 1 cellule 2</td>
+      </tr>
+      <!-- ici une deuxième ligne avec 2 cellules -->
+      <tr>
+        <td>ligne 2 cellule 1</td>
+        <td>ligne 2 cellule 2</td>
+      </tr>
+    </table>
+<p></p>
+    <!-- tableau complexe -->
+    <table border="1" width="100%">
+      <caption>Titre du tableau</caption>
+      <thead>
+        <tr>
+          <th>entete de colonne 1</th>
+          <th>entete de colonne 2</th>
+          <th>entete de colonne 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>ligne 1 cellule 1</th>
+          <td>ligne 1 cellule 2</td>
+          <td>ligne 1 cellule 3</td>
+        </tr>
+        <tr>
+          <th>ligne 2 cellule 1</th>
+          <td>ligne 2 cellule 2</td>
+          <td>ligne 2 cellule 3</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>entete de colonne 1</th>
+          <th>entete de colonne 2</th>
+          <th>entete de colonne 3</th>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- balises de formulaire  -->
+    <!-- form, input, label, fiedset, legend, select, textarea, button -->
+    
     <!-- balises de médias -->
     <!-- img, video, audio, figure, figcaption, picture -->
 
@@ -38,70 +124,5 @@
     
     <!-- balises de structure de document -->
     <!-- header, footer, main, aside, menu, section, article -->
-
-    <!-- balises de formulaire  -->
-    <!-- form, input, label, fiedset, legend, select, textarea, button -->
-    
-    <!-- balises de tableau -->
-    <!-- table, tr, td, th, thead, tbody, tfoot, caption -->
-
-    <!-- Unordered list -->
-    <ul>
-        <li>List element 1</li>
-        <li>List element 2</li>
-        <li>List element 3</li>
-        <li>
-            List element 4
-            <ul>
-                <li>
-                    List element 5-A
-                    <li>
-                        List element 5-B
-                    </li>
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <!-- Ordered list -->
-    <ol>
-        <li>List element 1</li>
-        <li>List element 2</li>
-        <li>List element 3</li>
-        <li>
-            <!-- On peut imbriquer -->
-            List element 4
-            <ul>
-                <li>
-                    List element 5-A
-                    <li>
-                        List element 5-B
-                    </li>
-                </li>
-            </ul>
-        </li>
-    </ol>
-    <!-- Definition list -->
-    <dl>
-        <dt>Titre de la définition</dt>
-        <dd>Exemple de titre</dd>
-        <dt>Man, M</dt>
-        <dd>Homme, sexe masculin</dd>
-    </dl>
-    <!-- Voici un tableau avec des titres de colonnes-->
-    <table border="1" width="100%">
-        <tr>
-            <th>Entete de colonne 1</th>
-            <th>Entete de colonne 2</th>
-            <th>Entete de colonne 3</th>
-        </tr>
-        <tr>
-            <td>Ligne 1 cellule 1</td>
-            <td>Ligne 1 cellule 2</td>
-        </tr>
-        <tr>
-            <td>Ligne 2 cellule 1</td>
-            <td>Ligne 2 cellule 2</td>
-        </tr>
-    </table>
   </body>
 </html>
