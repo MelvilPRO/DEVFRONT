@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaires</title>
+</head>
+<body>
+  <h1>Les formulaires HTML</h1>
+  <p>La balise form est utilisée pour créer un formulaire</p>
+
+  <form action="contact.php">
+    <!-- ici les données sont cloisonnées dans la balise form -->
+  </form>
+
+  <h2>Input</h2>
+
+  <p>La balise input est utilisée pour créer des champs de saisie de texte, des boutons radio, des cases à cocher, etc.</p>
+  
+  <!-- balise auto-fermente -->
+  <p>
+    <input type="text" />
+  </p>
+  <!-- p>input[type=text name="nom"  placeholder="Votre nom ici"] -->
+  <!-- on doit y insérer des attributs: name et placeholder, et souvent un id pour JavaScript -->
+
+  <!-- type text -->
+  <p>
+    <label for="nom">Votre nom:</label>
+    <input 
+      type="text"
+      name="nom"
+      id="nom"
+      value="John"
+      placeholder="Votre Nom ici..."
+    />
+  </p>
+  
+  <!-- type password -->
+  <p>
+    <label>
+      Mot de passe:
+      <input type="password" name="pass" id="pass" />
+    </label>
+  </p>
+
+  <!-- type checkbox -->
+  <p>
+    <label>
+      <input type="checkbox" name="ok" id="ok" value="accepté" />
+      Ok ?
+    </label>
+  </p>
+
+  <!-- type radio -->
+  <p>
+    <label>
+      <input type="radio" name="ouinon" id="oui" value="oui" />
+      Ok ?
+    </label>
+    <label>
+      <input type="radio" name="ouinon" id="non" value="non" />
+      pas Ok...
+    </label>
+  </p>
+
+  <h2>Textarea</h2>
+
+  <textarea placeholder="Votre message..." name="message" id="message" cols="50" rows="3">Message par défaut.</textarea>
+
+  <h2>Select et option</h2>
+
+  <select name="pays" id="pays">
+    <option value="">Sélectionnez...</option>
+    <option value="france">France</option>
+    <option value="luxembourg">Luxembourg</option>
+    <option value="belgique">Belgique</option>
+  </select>
+
+</body>
+</html>
