@@ -1,0 +1,24 @@
+.container {}
+.header {}
+.main {}
+/* je veux différencier le rendu graphique des 2 listes qui se trouvent dans le header et dans main */
+/* ici toutes les listes sont visées */
+.list {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.main .list li {
+    display: block;
+    background-color: orange;
+    margin-bottom: 1px;
+    border-style: dotted;
+    border: 3px solid black;
+
+}
+
+.header .list li {
+    display: inline-block;
+    padding: 10px;
+    background-color: red;
+}

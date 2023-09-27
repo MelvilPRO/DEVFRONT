@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'MachinTruc'; /* Nouveau nom de la police */
+    src: url('ITCEDSCR.TTF');
+}
+
+/* #Titre1 {
+    font-family: 'Marhey';
+}
+
+#Titre2 {
+    font-family: 'Fuggles';
+}
+
+#Titre3 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#Titre4 {
+    font-family: 'Black Ops One';
+}
+
+#Paragraphe1 {
+    font-family: 'Kablammo';
+}
+
+#Paragraphe2 {
+    font-family: 'Nabla';
+}
+
+#Paragraphe3 {
+    font-family: 'Blaka Ink';
+}
+
+#Paragraphe4 {
+    font-family: 'Zen Dots';
+} */
+
+
+
+#Paragraphe4 {
+    font-family: 'MachinTruc', sans-serif;
+}
