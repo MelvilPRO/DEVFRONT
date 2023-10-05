@@ -1,0 +1,26 @@
+/* J'applique les couleurs de fond ainsi que du texte
+ * Centrage des éléments verticalement et horizontalement
+ */
+body {
+    background-color: #0f4d8f;
+    text-align: center;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Applique l'image dans la div qui sera délimitée avec une bordue arrondie */
+#animation {
+    width: 480px;
+    height: 219px;
+    background-image: url('../IMG/Exercice7/exo-7-nyamcatrainbow.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border: solid white 5px;
+    border-radius: 30px 30px 30px 30px;
+}

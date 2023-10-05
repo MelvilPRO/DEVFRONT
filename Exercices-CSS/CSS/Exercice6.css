@@ -1,0 +1,14 @@
+/* Met la taille de texte par défaut a 14px */
+body {
+    font-size: 14px;
+}
+
+/* Centrer horizontalement les paragraphes à l'intérieur du premier élément <div> */
+div.super1 p {
+    text-align: center;
+}
+
+/* Transformer les titres en majuscules. */
+h1, h2, h3 {
+    text-transform: uppercase;
+}

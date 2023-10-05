@@ -1,0 +1,42 @@
+/* Centrage des éléments verticalement et horizontalement 
+ * Rajout aussi de l'image d'arrière plan représentant l'espace
+ */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+
+    background-image: url('../IMG/Exercice9/exo-9-bg.webp');
+}
+
+/* Spécifie que les éléments dans chaque cellules sont collés en bas */
+td {
+    vertical-align: bottom;
+}
+
+/* Représentation de chaque planète, en définissant leur image et leur taille */
+#planet-1 {
+    background-image: url('../IMG/Exercice9/exo-9-planet-1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+
+#planet-2 {
+    background-image: url('../IMG/Exercice9/exo-9-planet-2.png');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+}
+
+#planet-3 {
+    background-image: url('../IMG/Exercice9/exo-9-planet-3.png');
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+}

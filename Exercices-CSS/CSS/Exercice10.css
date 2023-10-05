@@ -1,0 +1,27 @@
+/* J'applique les couleurs de fond ainsi que du texte
+ * Centrage des éléments verticalement et horizontalement
+ */
+body {
+    text-align: center;
+    color: blue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Applique l'image dans la div qui sera délimitée avec une bordue */
+#animation {
+    border: solid blue 1px;
+    padding: 5px 8px;
+}
+
+/* Applique la couleur du paragraphe en dessous
+ * Ainsi que le style de texte italic 
+ */
+p {
+    color: grey;
+    font-style: italic;
+}
