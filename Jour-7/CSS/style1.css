@@ -1,0 +1,53 @@
+/* Réinitialisation des marges et des paddings */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style du header */
+header {
+    background-color: #333;
+    height: 150px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+}
+
+/* Style de la navigation horizontale */
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style de la section */
+section {
+    clear: both;
+    padding: 20px;
+}
+
+/* Style des colonnes dans la section */
+article {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+/* Style du footer */
+footer {
+    background-color: #333;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}

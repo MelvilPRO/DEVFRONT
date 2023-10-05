@@ -1,0 +1,32 @@
+article {
+    width: 70%;
+    float: left;
+    /* margin: 10px; */
+      
+}
+
+aside {
+    width: 30%;
+    float: right;
+    /* margin: 10px; */
+}
+
+header {
+    background-color: red;
+    height: 150px;
+}
+
+footer {
+    background-color: blue;
+    height: 150px;
+}
+
+.marrant {
+    color: rgb(255, 255, 255);
+}
+
+.clear {
+    /* clear: left; */
+    /* clear: right; */
+    clear: both;
+  }
