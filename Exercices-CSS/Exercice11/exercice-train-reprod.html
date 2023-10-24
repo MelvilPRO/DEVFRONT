@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice Train</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      /* background: url('exercice-train.jpg') no-repeat 50% 0/1440px auto; */
+      background: url('imgs/bg.jpg') no-repeat 50% 0/1440px auto;
+    }
+
+    .scene {
+      position: relative;
+      margin: 0px auto;
+      width: 1440px;
+      height: 967px;
+      overflow: hidden; /* sert à masquer tout ce qui dépasse de l'élément, comme un masque */
+      background-color: rgba(255,255,255,.1); /* enever cet effet d'opacité quand l'exercice est fini */
+    }
+
+    /* soleil */
+    .soleil {
+      position: absolute;
+      top: -50px;
+      right: 500px;
+      background: url('imgs/soleil.png') no-repeat;
+      width: 350px;
+      height: 350px;
+    }
+
+    /* birds */
+    .birds {
+      position: absolute;
+      top: 75px;
+      right: 810px;
+      background: url('imgs/birds.png') no-repeat;
+      width: 159px;
+      height: 108px;
+    }
+
+    /* ground */
+    .ground {
+      position: absolute;
+      bottom: -270px;
+      right: -1490px;
+      background: url('imgs/ground.png') no-repeat;
+      width: 3911px;
+      height: 720px;
+    }
+
+    /* city-ap */
+    .city-ap {
+      position: absolute;
+      bottom: 205px;
+      left: -368px;
+      background: url('imgs/city-ap.png') no-repeat;
+      width: 1130px;
+      height: 301px;
+    }
+
+    /* city-ap */
+    .city-ap {
+      position: absolute;
+      bottom: 205px;
+      left: -368px;
+      background: url('imgs/city-ap.png') no-repeat;
+      width: 1130px;
+      height: 301px;
+    }
+
+    /* smoke */
+    .smoke {
+      position: absolute;
+      bottom: 330px;
+      right: 425px;
+      background: url('imgs/smoke.png') no-repeat;
+      width: 360px;
+      height: 420px;
+    }
+
+    /* rails */
+    .rails {
+      position: absolute;
+      bottom: 150px;
+      left: -70px;
+      background: url('imgs/rails.png') no-repeat;
+      width: 3712px;
+      height: 34px;
+    }
+
+    /* train */
+    .train {
+      position: absolute;
+      bottom: 72px;
+      left: -2100px;
+      background: url('imgs/train.png') no-repeat;
+      width: 3061px;
+      height: 274px;
+    }
+
+    /* station-characters */
+    .station-characters {
+      position: absolute;
+      bottom: 40px;
+      left: -0px;
+      background: url('imgs/station-characters.png') no-repeat;
+      width: 809px;
+      height: 424px;
+    }
+
+    /* cloud-md */
+    .cloud-md {
+      position: absolute;
+      top: 175px;
+      right: -275px;
+      background: url('imgs/cloud-md.png') no-repeat;
+      width: 724px;
+      height: 480px;
+    }
+
+    /* cloud-xxl */
+    .cloud-xxl {
+      position: absolute;
+      top: 18px;
+      right: -110px;
+      background: url('imgs/cloud-xxl.png') no-repeat;
+      width: 1036px;
+      height: 713px;
+    }
+
+    /* birds-2 */
+    .birds-2 {
+      position: absolute;
+      top: 300px;
+      right: 300px;
+      background: url('imgs/birds-2.png') no-repeat;
+      width: 98px;
+      height: 72px;
+    }
+
+    /* arbres-droite */
+    .arbres-droite {
+      position: absolute;
+      bottom: 0px;
+      right: -80px;
+      background: url('imgs/arbres-droite.png') no-repeat;
+      width: 500px;
+      height: 458px;
+    }
+
+  </style>
+</head>
+<body>
+  <main class="scene">
+    <div class="soleil"></div>
+    <div class="birds"></div>
+    <div class="ground"></div>
+    <div class="city-ap"></div>
+    <div class="smoke"></div>
+    <div class="rails"></div>
+    <div class="train"></div>
+    <div class="station-characters"></div>
+    <div class="cloud-md"></div>
+    <div class="cloud-xxl"></div>
+    <div class="birds-2"></div>
+    <div class="arbres-droite"></div>
+  </main>
+</body>
+</html>
